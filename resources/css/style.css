@@ -15,13 +15,13 @@ html, body {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 1.5rem;
-  height: 100px;
+  height: 4rem;
   border: 1px solid black;
   align-items: center;
 }
 
 .menu .container {
-  height: 6rem;
+  height: 4rem;
 }
 
 .navigation ul {
