@@ -20,10 +20,6 @@ html, body {
   align-items: center;
 }
 
-.menu .container {
-  height: 4rem;
-}
-
 .navigation ul {
   display: flex;
   flex-direction: row;
@@ -32,3 +28,9 @@ html, body {
 li {
   padding-right: 1rem;
 }
+
+.strong{
+  font-weight: bold;
+}
+
+/* Menu section, includes company brand and navigation */
