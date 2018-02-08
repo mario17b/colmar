@@ -10,7 +10,7 @@ html, body {
     width: 1200;
 }
 
-.menu {
+.menu .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -31,6 +31,17 @@ li {
 
 .strong{
   font-weight: bold;
+  color: black;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title, span {
+  color: grey;
 }
 
 /* Menu section, includes company brand and navigation */
