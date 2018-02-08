@@ -44,4 +44,11 @@ li {
   color: grey;
 }
 
-/* Menu section, includes company brand and navigation */
+/* first section of body */
+
+.everyday .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+}
