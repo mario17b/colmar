@@ -56,6 +56,7 @@ li {
   display: flex;
   flex-direction: row;
   width: 100%;
+  background-color: grey;
 }
 
 .banner {
@@ -74,4 +75,27 @@ li {
   border: 1px solid green;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-left: 1.5rem;
+}
+
+.description span {
+  padding-bottom: 1rem;
+}
+.one {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.two {
+  color: black;
+}
+
+.three {
+  color: grey;
+  background-color: black;
+  width: 15rem;
+  justify-content: center;
+  align-items: center;
 }
