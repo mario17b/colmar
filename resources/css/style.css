@@ -56,18 +56,23 @@ li {
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: grey;
+  background-color: gainsboro;
+  height: 20em;
 }
 
 .banner {
   width: 60%;
-  height: 20rem;
   border: 1px solid green;
+  object-fit: contain;
 }
 
-.banner img {
-  object-fit: cover;
+.banner-img {
+  height: 20rem;
+}
 
+.banner-img img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .description {
@@ -80,9 +85,7 @@ li {
   padding-left: 1.5rem;
 }
 
-.description span {
-  padding-bottom: 1rem;
-}
+
 .one {
   font-size: 2.5rem;
   color: black;
@@ -93,9 +96,25 @@ li {
 }
 
 .three {
-  color: grey;
-  background-color: black;
-  width: 15rem;
+  color: white;
+  background-color: grey;
   justify-content: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
 }
+
+.span-container  {
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.span-container span {
+  margin-bottom: 2rem;
+}
+
+/* first section of body */
