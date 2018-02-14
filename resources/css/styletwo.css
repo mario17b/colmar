@@ -16,4 +16,29 @@ html, body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 4rem;
+}
+
+.logo-name {
+  display: flex;
+  flex-direction: row;
+  margin: 0 1.5rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation li {
+  margin: 1rem 0;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1rem;
 }
