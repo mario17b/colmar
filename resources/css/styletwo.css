@@ -1,0 +1,19 @@
+/* Universal Styles */
+
+html, body {
+  font-size: 16px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+
+/* Menu section, includes company brand and navigation */
+
+.container .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
