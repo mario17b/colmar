@@ -101,7 +101,6 @@ html, body {
 .container .second-section {
   display: flex;
   flex-direction: row;
-
 }
 
 /* Column One - Second Section of the Body*/
@@ -171,4 +170,27 @@ padding-bottom: 2rem;
 
 .minic2-wrapper2 {
   background-color: #d6d8d7
+}
+
+/* Section Three*/
+
+/* Section Three - header*/
+
+.container .header  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.row-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.mini-wrappers3 {
+  width: 33%;
+  margin-right: 
 }
