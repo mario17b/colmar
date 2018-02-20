@@ -185,12 +185,22 @@ padding-bottom: 2rem;
   font-size: 2rem;
 }
 
+.container .third-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .row-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-two {
   display: flex;
   flex-direction: row;
 }
 
 .mini-wrappers3 {
   width: 33%;
-  margin-right: 
+  margin-right: 1.5rem;
 }
