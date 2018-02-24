@@ -143,6 +143,7 @@ padding-bottom: 2rem;
   flex-direction: row;
   align-items: center;
 }
+
 .minic2-wrapper .img {
   height: auto;
   width: 35%
@@ -169,7 +170,7 @@ padding-bottom: 2rem;
 }
 
 .minic2-wrapper2 {
-  background-color: #d6d8d7
+  background-color: #d6d8d7;
 }
 
 /* Section Three*/
@@ -214,6 +215,53 @@ padding-bottom: 2rem;
   flex-direction: row;
 }
 
+/* Section Four column 1 */
+
 .column-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-one video {
+  width: 100%;
+}
+
+.column-one .title .curabitur  {
+  width: 100%;
+  }
+
+
+
+
+/* Section Four column 2*/
+
+.minic2-wrapper-grey {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #d6d8d7;
+}
+
+.minic2-wrapper-grey .img {
+  height: auto;
+  width: 40%;
+}
+
+.minic2-wrapper-grey .mc2w {
+  width: 60%;
+}
+
+.minic2-wrapper-white {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.minic2-wrapper-white .img {
+  height: auto;
+  width: 40%;
+}
+
+.minic2-wrapper-white .mc2w {
   width: 60%;
 }
