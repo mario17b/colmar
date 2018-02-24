@@ -208,11 +208,19 @@ padding-bottom: 2rem;
   margin-right: 1.5rem;
 }
 
+.mini-wrappers3 .title .info {
+  margin-left: 1.5rem;
+}
+
 /* Section Four*/
 
 .container .fourth-section {
   display: flex;
   flex-direction: row;
+}
+
+.ti {
+  margin-left: 1.5rem;
 }
 
 /* Section Four column 1 */
@@ -224,21 +232,10 @@ padding-bottom: 2rem;
 
 .column-one video {
   width: 100%;
-  padding-bottom: 1.5rem;
-  margin-left: 1.5rem;
 }
 
 .column-one .title .curabitur  {
   width: 100%;
-  }
-
-  .column-one .title {
-    padding-bottom: .5rem;
-    margin-left: 1.5rem;
-  }
-
-  .column-one .curabitur {
-    padding-bottom: 2rem;
   }
 
 /* Section Four column 2*/
