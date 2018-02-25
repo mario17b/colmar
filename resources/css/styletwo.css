@@ -191,6 +191,7 @@ padding-bottom: 2rem;
 .container .third-section {
   display: flex;
   flex-direction: column;
+  background-color: #dce8ef;
 }
 
 .row-one {
@@ -232,11 +233,26 @@ padding-bottom: 2rem;
 
 .column-one video {
   width: 100%;
+  margin-left: 1.5rem;
 }
 
 .column-one .title .curabitur  {
   width: 100%;
   }
+
+.column-one .title {
+  margin-left: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.column-one .curabitur{
+padding-bottom: 2rem;
+}
+
+.column-two {
+  margin-left: 3rem;
+}
 
 /* Section Four column 2*/
 
