@@ -221,6 +221,20 @@ padding-bottom: 2rem;
   flex-direction: row;
 }
 
+.fourth-section .header3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header3 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 .ti {
   margin-left: 1.5rem;
 }
