@@ -207,12 +207,27 @@ padding-bottom: 2rem;
 
 .mini-wrappers3 {
   width: 33%;
-  margin-right: 1.5rem;
+  background-color: white;
+  margin: 1.5rem;
 }
 
 .mini-wrappers3 .title .info {
   margin-left: 1.5rem;
 }
+
+.ti .courses {
+  padding: .5rem 0rem;
+  color: #e8e8e8;
+}
+
+.ti .info {
+  color: #e8e8e8;
+}
+
+.img img {
+  max-width: 90%;
+}
+
 
 /* Section Four*/
 
@@ -238,6 +253,11 @@ padding-bottom: 2rem;
 .ti {
   margin-left: 1.5rem;
 }
+
+.info span {
+  padding-top: 2rem;
+}
+
 
 /* Section Four column 1 */
 
