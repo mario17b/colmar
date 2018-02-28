@@ -4,13 +4,9 @@ html, body {
   font-size: 16px;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 /* Menu section, includes company brand and navigation */
 
-.container .header {
+ .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -47,7 +43,7 @@ html, body {
 
 /* First Section of the Body*/
 
-.container .first-section {
+.first-section {
   display: flex;
   flex-direction: row;
   background-color: #d6d8d7;
@@ -93,7 +89,7 @@ html, body {
 
 /* Second Section of the Body*/
 
-.container .second-section {
+.second-section {
   display: flex;
   flex-direction: row;
   margin: 2rem 0rem 0rem 0rem;
@@ -173,9 +169,10 @@ padding-bottom: 2rem;
 
 /* Section Three*/
 
+
 /* Section Three - header*/
 
-.container .header2  {
+.header2  {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -186,7 +183,7 @@ padding-bottom: 2rem;
 
 /* Section Three - Body*/
 
-.container .third-section {
+.third-section {
   display: flex;
   flex-direction: column;
   background-color: #e8e8e8;
@@ -236,7 +233,7 @@ padding-bottom: 2rem;
 
 /* Section Four*/
 
-.container .fourth-section {
+.fourth-section {
   display: flex;
   flex-direction: row;
 }
