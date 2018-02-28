@@ -225,9 +225,15 @@ padding-bottom: 2rem;
   color: #d6d8d7;
 }
 
-.img img {
-  max-width: 90%;
-  object-fit: contain;
+.mini-wrappers3 .img {
+  max-width: 100%;
+}
+
+.img  {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  object-fit: cover;
 }
 
 
