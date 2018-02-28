@@ -96,7 +96,7 @@ html, body {
 .container .second-section {
   display: flex;
   flex-direction: row;
-  margin: 2rem 0rem;
+  margin: 2rem 0rem 0rem 0rem;
 }
 
 /* Column One - Second Section of the Body*/
@@ -145,6 +145,10 @@ padding-bottom: 2rem;
 .minic2-wrapper .mc2w {
   height: auto;
   width: 65%
+}
+
+.minic2-wrapper2 {
+  padding-top: .5rem;
 }
 
 .mc2w {
