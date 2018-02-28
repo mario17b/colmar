@@ -203,6 +203,7 @@ padding-bottom: 2rem;
 .row-two {
   display: flex;
   flex-direction: row;
+  background-color:
 }
 
 .mini-wrappers3 {
@@ -217,15 +218,16 @@ padding-bottom: 2rem;
 
 .ti .courses {
   padding: .5rem 0rem;
-  color: #e8e8e8;
+  color: #d6d8d7;
 }
 
 .ti .info {
-  color: #e8e8e8;
+  color: #d6d8d7;
 }
 
 .img img {
   max-width: 90%;
+  object-fit: contain;
 }
 
 
