@@ -124,6 +124,7 @@ padding-bottom: 2rem;
   flex-direction: column;
   width: 40%;
   margin-left: 1.5rem;
+  border-left: 1px solid #d6d8d7;
 }
 
 .minic2-wrapper {
@@ -131,6 +132,8 @@ padding-bottom: 2rem;
   flex-direction: row;
   align-items: center;
   padding: .0rem .5rem .5rem .5rem;
+  border-bottom: 1px #d6d8d7;
+  border-style: double;
 }
 
 .minic2-wrapper .img {
@@ -185,19 +188,9 @@ padding-bottom: 2rem;
 
 .third-section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: #e8e8e8;
-}
-
-.row-one {
-  display: flex;
-  flex-direction: row;
-}
-
-.row-two {
-  display: flex;
-  flex-direction: row;
-  background-color:
 }
 
 .mini-wrappers3 {
@@ -225,9 +218,7 @@ padding-bottom: 2rem;
 
 .img  {
   display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 
