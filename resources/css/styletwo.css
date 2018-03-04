@@ -251,9 +251,12 @@ padding-bottom: 2rem;
 
 .info span {
   padding-top: 2rem;
-  color: #87878d
+  color: #87878d;
 }
 
+.minic2-wrapper-grey, .minic2-wrapper-white {
+  padding: .5rem;
+}
 
 /* Section Four column 1 */
 
