@@ -95,6 +95,7 @@ html, body {
   margin: 2rem 0rem 0rem 0rem;
 }
 
+
 /* Column One - Second Section of the Body*/
 
 .ss-column1 {
@@ -131,9 +132,9 @@ padding-bottom: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: .0rem .5rem .5rem .5rem;
-  border-bottom: 1px #d6d8d7;
-  border-style: double;
+  padding: .5rem .5rem .5rem .5rem;
+  border-bottom: double 3px #d6d8d7;
+
 }
 
 .minic2-wrapper .img {
@@ -194,7 +195,7 @@ padding-bottom: 2rem;
 }
 
 .mini-wrappers3 {
-  width: 33%;
+  width: 28%;
   background-color: white;
   margin: 1.5rem;
 }
