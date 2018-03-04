@@ -42,6 +42,17 @@ html, body {
   padding-top: .5rem;
 }
 
+.mobile-header {
+  display: none;
+}
+
+/* Mobile Responsive - First Section of the Body*/
+
+@media only screen
+    and (max-width: 480px) {
+
+    }
+
 /* First Section of the Body*/
 
 .first-section {
