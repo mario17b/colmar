@@ -42,15 +42,26 @@ html, body {
   padding-top: .5rem;
 }
 
+
+/* Mobile Responsive - First Section of the Body*/
+
 .mobile-header {
   display: none;
 }
 
-/* Mobile Responsive - First Section of the Body*/
-
 @media only screen
     and (max-width: 480px) {
 
+      .mobile-header {
+        display: flex;
+        height: 4rem;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .logo-name, .navigation, .header  {
+        display: none;
+      }
     }
 
 /* First Section of the Body*/
