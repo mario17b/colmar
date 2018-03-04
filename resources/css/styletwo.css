@@ -134,10 +134,25 @@ padding-bottom: 2rem;
   flex-direction: row;
   align-items: center;
   padding: .5rem .5rem .5rem .5rem;
-  border-bottom: double 3px #d6d8d7;
+  }
 
+.minic2-wrapper-double {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: .5rem .5rem .5rem .5rem;
+  border-bottom: double 3px #d6d8d7;
 }
 
+.minic2-wrapper-double .img {
+  height: auto;
+  width: 35%;
+}
+
+.minic2-wrapper-double .mc2w {
+  height: auto;
+  width: 65%
+}
 .minic2-wrapper .img {
   height: auto;
   width: 35%;
@@ -146,10 +161,6 @@ padding-bottom: 2rem;
 .minic2-wrapper .mc2w {
   height: auto;
   width: 65%
-}
-
-.minic2-wrapper2 {
-  padding-top: .5rem;
 }
 
 .mc2w {
