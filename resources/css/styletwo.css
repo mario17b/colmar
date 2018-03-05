@@ -110,6 +110,42 @@ html, body {
   padding: .5rem 0;
 }
 
+
+/* Media Querry First Section of the Body*/
+
+@media only screen
+    and (max-width: 480px) {
+    .first-section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .first-section .img {
+      width: 100%;
+    }
+
+    .ss-column1, .first-section .img {
+      padding: 0rem;
+    }
+
+    .everyday, .start, .lorem {
+      margin-left: 0rem 0rem 0rem 1rem;
+    }
+
+    .everyday {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    .lorem {
+      padding-bottom: 1.5rem;
+    }
+
+    .start {
+      margin-bottom: 2rem;
+    }
+  }
+
 /* Second Section of the Body*/
 
 .second-section {
@@ -205,8 +241,36 @@ padding-bottom: 2rem;
   background-color: #d6d8d7;
 }
 
-/* Section Three*/
+/* Media Querry Second Section of the Body*/
 
+@media only screen
+    and (max-width: 480px) {
+    .second-section {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 1rem 0rem 2rem;
+    }
+
+    .ss-column1 {
+      display: none;
+    }
+
+    .ss-column2 {
+      width: 100%;
+      margin-left: 1rem;
+    }
+
+    .minic2-wrapper-double {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .minic2-wrapper-double .img {
+      width: 100%;
+    }
+  }
+
+/* Section Three*/
 
 /* Section Three - header*/
 
