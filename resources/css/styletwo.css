@@ -114,7 +114,7 @@ html, body {
 /* Media Querry First Section of the Body*/
 
 @media only screen
-    and (max-width: 480px) {
+    and (max-width: 400px) {
     .first-section {
       display: flex;
       flex-direction: column;
@@ -244,7 +244,7 @@ padding-bottom: 2rem;
 /* Media Querry Second Section of the Body*/
 
 @media only screen
-    and (max-width: 480px) {
+    and (max-width: 400px) {
     .second-section {
       display: flex;
       flex-direction: column;
