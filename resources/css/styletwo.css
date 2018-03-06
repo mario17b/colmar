@@ -262,6 +262,7 @@ padding-bottom: 2rem;
     .ss-column2 {
       width: 100%;
       margin-left: 1rem;
+      border-bottom: solid 1px grey;
     }
 
     .minic2-wrapper-double {
@@ -269,6 +270,7 @@ padding-bottom: 2rem;
       flex-direction: column;
       padding: 1rem;
       align-items: left;
+      border: none;
     }
 
     .minic2-wrapper {
@@ -350,6 +352,35 @@ padding-bottom: 2rem;
   object-fit: cover;
 }
 
+@media only screen
+    and (max-width: 400px) {
+
+    .header2 {
+      background-color: white;
+      border-top: solid 1px grey;
+    }
+
+    .third-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+    }
+
+    .mini-wrappers3 {
+      display: flex;
+      justify-content: center;
+      align-items: left;
+      background-color: #e8e8e8;
+      width: 100%;
+      margin: .5rem 1rem;
+      margin-right: 3rem;
+    }
+
+    .courses, .info {
+      display: none;
+    }
 
 /* Section Four*/
 
