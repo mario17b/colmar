@@ -510,3 +510,21 @@ footer {
   border-top: 1px solid #e8e8e8;
   color: #87878d;
 }
+
+/* footer - Responsive */
+
+@media only screen
+    and (max-width: 400px) {
+      footer {
+        display: flex;
+        justify-content: ;
+        border-top: none;
+        margin: 1rem;
+        height: auto;
+        padding: none;
+      }
+
+      .terms {
+        display: none;
+      }
+  }
