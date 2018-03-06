@@ -370,12 +370,14 @@ padding-bottom: 2rem;
 
     .mini-wrappers3 {
       display: flex;
-      justify-content: center;
-      align-items: left;
+      align-items: center;
       background-color: #e8e8e8;
-      width: 100%;
+      width: 20rem;
       margin: .5rem 1rem;
-      margin-right: 3rem;
+    }
+
+    .title {
+      padding: 1rem 0rem 1.5rem 1rem;
     }
 
     .courses, .info {
