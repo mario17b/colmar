@@ -491,7 +491,7 @@ padding-bottom: 2rem;
 
 @media only screen
     and (max-width: 400px) {
-      .column-two, .title, .curabitur {
+      .fourth-section .column-two {
         display: none;
       }
 
