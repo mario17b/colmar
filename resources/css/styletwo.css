@@ -378,11 +378,11 @@ padding-bottom: 2rem;
       margin: .5rem 1rem;
     }
 
-    .title {
-      padding: 1rem 0rem 1.5rem 1rem;
+      .courses {
+      display: none;
     }
 
-    .courses, .info {
+    .third-section .info {
       display: none;
     }
 
@@ -492,6 +492,9 @@ padding-bottom: 2rem;
 @media only screen
     and (max-width: 400px) {
       .fourth-section .column-two {
+        display: none;
+      }
+      .fourth-section .title {
         display: none;
       }
 
