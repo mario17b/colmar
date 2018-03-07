@@ -299,6 +299,10 @@ padding-bottom: 2rem;
       margin: 0rem;
       border: none;
     }
+
+    .mc2w {
+      margin-top: 1rem;
+    }
   }
 
 /* Section Three*/
@@ -504,6 +508,15 @@ padding-bottom: 2rem;
 
       .column-one video {
         margin: 0rem 0rem 2rem 0rem;
+      }
+
+      .fourth-section span {
+        display: none;
+      }
+
+      .header3 {
+        margin: 2rem 0rem 1rem 0rem;
+        border-top: solid 1px grey;
       }
   }
 /* footer */
