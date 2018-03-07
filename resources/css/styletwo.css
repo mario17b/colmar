@@ -386,6 +386,10 @@ padding-bottom: 2rem;
       display: none;
     }
 
+    .third-section .title {
+      padding: 1rem 0rem 1.5rem 1rem;
+    }
+
 /* Section Four*/
 
 .fourth-section {
