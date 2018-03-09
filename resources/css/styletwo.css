@@ -402,13 +402,13 @@ padding-bottom: 2rem;
     .third-section .title {
       padding: 1rem 0rem 1.5rem 1rem;
     }
+  }
 
 /* Section Four*/
 
 .fourth-section {
   display: flex;
   flex-direction: row;
-  color: pink;
 }
 
 .fourth-section .header3 {
@@ -531,6 +531,7 @@ padding-bottom: 2rem;
         border-top: solid 1px grey;
       }
     }
+
 
 /* footer */
 
