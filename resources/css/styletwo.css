@@ -339,6 +339,9 @@ padding-bottom: 2rem;
   margin-left: 1.5rem;
 }
 
+.ti {
+  margin-left: 1rem;
+}
 .ti .courses {
   padding: .5rem 0rem;
   color: #b9b9b9;
@@ -346,6 +349,10 @@ padding-bottom: 2rem;
 
 .ti .info {
   color: #b9b9b9;
+}
+
+.ti .title {
+  margin-top: 1rem;
 }
 
 .mini-wrappers3 .img {
@@ -504,10 +511,10 @@ padding-bottom: 2rem;
 @media only screen
     and (max-width: 400px) {
       .fourth-section .column-two {
-        display: none;
+        display:none;
       }
       .fourth-section .title {
-        display: none;
+        display:none;
       }
 
       .column-one video {
@@ -522,7 +529,7 @@ padding-bottom: 2rem;
         margin: 2rem 0rem 1rem 0rem;
         border-top: solid 1px grey;
       }
-  }
+    }
 /* footer */
 
 footer {
@@ -551,4 +558,4 @@ footer {
       .terms {
         display: none;
       }
-  }
+    }
