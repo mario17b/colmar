@@ -8,7 +8,6 @@ html, body {
 
  .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   height: 4rem;
 }
@@ -68,7 +67,6 @@ html, body {
 
 .first-section {
   display: flex;
-  flex-direction: row;
   background-color: #d6d8d7;
 }
 
@@ -410,6 +408,7 @@ padding-bottom: 2rem;
 .fourth-section {
   display: flex;
   flex-direction: row;
+  color: pink;
 }
 
 .fourth-section .header3 {
@@ -419,15 +418,13 @@ padding-bottom: 2rem;
 }
 
 .header3 {
+  display: flex;
   font-weight: bold;
   font-size: 2rem;
   padding: 2rem 0rem;
   align-items: center;
   justify-content: center;
   width: 100%;
-}
-.ti {
-  margin-left: 1.5rem;
 }
 
 .info span {
@@ -457,7 +454,7 @@ padding-bottom: 2rem;
 
 .column-one .title .curabitur  {
   width: 100%;
-  }
+}
 
 .column-one .title {
   margin-left: 1.5rem;
@@ -513,10 +510,14 @@ padding-bottom: 2rem;
       .fourth-section .column-two {
         display:none;
       }
+
       .fourth-section .title {
         display:none;
       }
 
+      .fourth-section .curabitur {
+        display: none;
+      }
       .column-one video {
         margin: 0rem 0rem 2rem 0rem;
       }
@@ -530,6 +531,7 @@ padding-bottom: 2rem;
         border-top: solid 1px grey;
       }
     }
+
 /* footer */
 
 footer {
@@ -548,7 +550,7 @@ footer {
     and (max-width: 400px) {
       footer {
         display: flex;
-        justify-content: ;
+        justify-content: space-between;
         border-top: none;
         margin: 1rem;
         height: auto;
